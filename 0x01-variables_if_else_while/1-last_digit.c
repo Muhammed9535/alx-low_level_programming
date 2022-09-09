@@ -8,9 +8,11 @@
 /* betty style doc for function main goes there */
 /**
  * main - entry point
- * Description:print random number check if it greater than five or equal to zero or less than six
  *
- * Return 0
+ * Description:print random number check if it greater
+ * than five or equal to zero or less than six
+ *
+ * Return: 0
  */
 int main(void)
 
