@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *
+ * Description: print lower case alphabet
  * Return:0
  */
 

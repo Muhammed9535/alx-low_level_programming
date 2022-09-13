@@ -2,7 +2,7 @@
 
 /**
  * main - entry point
- *
+ * Description: print lower case alphabet 10 times
  * Return:0
  */
 
@@ -18,7 +18,8 @@ void print_alphabet_x10(void)
 
 		for (c = 'a'; c <= 'z'; c++)
 			_putchar(c);
+
+		_putchar('\n');
 		j++;
 	}
-	_putchar('\n');
 }
