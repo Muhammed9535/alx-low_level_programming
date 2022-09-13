@@ -2,7 +2,8 @@
 
 /**
  * main - entry point
- * Description: print lower case alphabet 10 times
+ * description: print lower case alphabet 10 times
+ *
  * Return:0
  */
 
@@ -12,7 +13,7 @@ void print_alphabet_x10(void)
 	int j;
 
 	j = 1;
-	while (j <= 9)
+	while (j <= 10)
 	{
 		int c;
 
