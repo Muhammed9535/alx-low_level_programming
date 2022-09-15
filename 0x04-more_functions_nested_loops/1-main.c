@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - calls int _isdigit(int c) function
@@ -7,7 +8,10 @@
  */
 int main(void)
 {
-	int _isdigit(int c);
+	char c;
 
+	c = '0';
+	c = 'a';
+	printf("%c: %d\n", c, _isdigit(c));
 	return (0);
 }
