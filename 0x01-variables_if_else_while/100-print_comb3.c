@@ -2,7 +2,7 @@
 /**
   * main -  prints all possible different combinations of two digits
   * Description: Write a program that prints all possible different
-  * combinations of two digits separated by , followed by a space
+  combinations of two digits separated by , followed by a space
 * Return: 0
 */
 int main(void)
@@ -11,13 +11,12 @@ int main(void)
 
 	for (i = 0; i <= 8; i++)
 	{
-		for (j = 1; j <= 9; j++)
-		{
+		for (j = 1; j <= 9; j++){
 			putchar(i + '0');
 			putchar(j + '0');
+			c = i + j;
 			if (c < 15)
 			{
-				c = i + j;
 				putchar(',');
 				putchar(' ');
 			}

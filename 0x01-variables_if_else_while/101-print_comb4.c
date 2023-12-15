@@ -15,15 +15,19 @@ int main(void)
 		{
 			for (k = 2; k <= 9; k++)
 			{
-				x = i + j + k;
-				putchar(i + '0');
-				putchar(j + '0');
-				putchar(k + '0');
-				if (x < 24)
+				if (i != j && i != k && j != k)
 				{
-					putchar(',');
-					putchar(' ');
+					x = i + j + k;
+					putchar(i + '0');
+					putchar(j + '0');
+					putchar(k + '0');
+					if (x < 24)
+					{
+						putchar(',');
+						putchar(' ');
+					}
 				}
+				
 			}
 		}
 	}
