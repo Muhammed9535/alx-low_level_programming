@@ -1,8 +1,9 @@
 #include "main.h"
+#include <stdio.h>
 /**
   * main - testing
   * Description: testing a function
-  * Return 0
+  * Return: 0
   */
 int main(void)
 {
