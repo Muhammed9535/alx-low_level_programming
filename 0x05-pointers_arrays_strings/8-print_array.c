@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
   * print_array - a function that prints n elements of an array of integers
   * @a: aray to check
@@ -10,8 +11,11 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		_putchar(a[i]);
-		_putchar(' ');
-		_putchar(',');
+		printf("%d", a[i]);
+		if (i == (n - 1))
+			continue;
+		printf(",");
+		printf(" ");
 	}
+	printf("\n");
 }
