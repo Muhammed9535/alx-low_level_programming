@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  * 8-print_diagsums.c - a function that prints the sum of the two diagonal
+  * print_diagsums - a function that prints the sum of the two diagonal
   * of a square matrix of integers
   * @size: size of the array
   * @a: name of array
@@ -18,6 +18,6 @@ void print_diagsums(int *a, int size)
 		primary += a[(i * size) + i];
 		secondary += a[(i + 1) * size - (i + 1)];
 	}
-	printf("%d, %d", primary,secondary);
+	printf("%d, %d", primary, secondary);
 	printf("\n");
 }
