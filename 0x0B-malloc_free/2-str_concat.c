@@ -8,7 +8,7 @@
   */
 char *str_concat(char *s1, char *s2)
 {
-	int len1, len2, total, len11, len22, i, j;
+	int len1, len2, total, i, j;
 	char *array;
 
 	len1 = 0;
@@ -16,16 +16,14 @@ char *str_concat(char *s1, char *s2)
 	{
 		len1++;
 	}
-	len11 = len1 - 1;
 
 	len2 = 0;
 	while (s2[len2])
 	{
 		len2++;
 	}
-	len22 = len2 - 1;
 
-	total = len11 + len22;
+	total = len1 + len2;
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)

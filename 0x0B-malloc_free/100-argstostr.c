@@ -20,7 +20,7 @@ char *argstostr(int ac, char **av)
 		for (j = 0; av[i][j]; j++)
 			size++;
 	}
-	array = malloc(sizeof(int) * size + 1);
+	array = malloc(sizeof(char) * size + 1);
 
 	if (array == NULL)
 		return (NULL);
