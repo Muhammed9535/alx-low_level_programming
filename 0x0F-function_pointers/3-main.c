@@ -6,6 +6,9 @@
   * @argv: pointer to argument arry
   * Return: 1
   */
-int main(void)
+int main(int argc; char*argv[])
 {
+	if (argc ==  4)
+	{
+		
 
